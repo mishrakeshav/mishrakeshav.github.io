@@ -1,0 +1,106 @@
+
+
+/* Header section */
+#nav-bar{
+    padding-right: 1rem;
+    padding-left: 2rem;  
+}
+
+#head-color{
+    background-color: #eafbea;
+    
+    
+}
+
+/* Profile section */
+#profile-section{
+    background-image: url(images/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    
+    
+}
+
+#profile{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#profile-quote, .hobbies-quote, #contactme-quote{
+    font-family: 'Gloria Hallelujah', cursive;
+   
+    text-align: center;
+}
+#Keshav{
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    padding-bottom:2rem ;
+}
+
+
+/* About Section */
+#about{
+    padding-top:5rem;
+    padding-bottom:3rem ;
+    text-align: center;
+    background-color: #eafbea;
+    
+}
+ul {
+    list-style-type: none;
+    color: black;
+}
+#hobbies, #education-head{
+    text-align: center; 
+    font-family: 'Gochi Hand', cursive;"
+}
+
+#education{
+    padding-top: 4rem;
+    
+}
+#aboutme{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Contact me section */
+#contactme{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background-color: #323232;
+    text-align: center;
+    color:#000 ;
+}
+.icons{
+    margin: 20px 10px;
+    color: white;
+    font-size: 30px;
+}
+.icons:hover{
+    color:red;
+}
+/* Feedback Form */
+.feedback-form{
+    font-family: 'Gloria Hallelujah', cursive;
+   
+    text-align: center;
+}
+#feedback{
+    background-color: #eafbea;
+}
+
+.bttn{
+    width: 5rem;
+}
