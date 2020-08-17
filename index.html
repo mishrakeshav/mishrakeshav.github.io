@@ -1,250 +1,619 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- font awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Keshav Mishra</title>
 
-    <!-- Bootstrap Links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-
-    <!-- CSS File -->
-    <link rel="stylesheet" href="styles.css">
-    <title>Keshav Mishra</title>
-
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-    <header id="head-color">
-        <nav>
-            <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-user-circle"></i><strong> Keshav
-                        Mishra</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <div class="navbar-fixed">
+    <nav class="blue-grey darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Portfolio</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+        </ul>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <span
-                                    class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about"><i class="far fa-address-card"></i> About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contactme"><i class="fas fa-address-book"></i> Contact me</a>
-                        </li>
-                    
-                    </ul>
+       
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <ul id="nav-mobile" class="sidenav white">
+      <li><a href = "#"><h5>Keshav Mishra</h5></a></li>
+      <li><a href="#connect">Connect</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Skills</a></li>
+      <li><a href="#certifications">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+  </ul>
 
-                </div>
-            </nav>
-        </nav>
-    </header>
-
-    <!-- Profile Section -->
-    <section id="profile-section">
-        <div class = "container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 id="profile">Profile</h1>
-
-                </div>
-
-                <div class="col-lg-12" style="text-align: center;">
-                    <img id="boy" style="width: 10rem; padding-top: 2rem;" src="images/boy.svg" alt="">
-                </div>
-                <div class="col-lg-12" id="Keshav">
-                    <h2 id=" Keshav">Keshav Mishra</h2>
-                </div>
-                <div class="col-lg-12">
-                    <h3 id="profile-quote">“Simplicity is the ultimate sophistication.” –Leonardo da Vinci</h3>
-                </div>
-    </section>
-    <section id="about">
-        <h1 id="aboutme">About me</h1>
-        <hr>
-        <div class="container">
-            <h1 style="font-family: 'Gochi Hand', cursive;">Abilities</h1>
-            <p class="lead" style="font-family: 'Gochi Hand', cursive;">
-                "Life without knowledge is death in disguise" <br>
-                -Talib Kwell
-            </p>
-            <hr>
-
-
-            <div class="row">
-                <div class="col-lg-12" style="padding-bottom: 2rem;">
-                    <h2 style="font-family: 'Gochi Hand', cursive;">Skills</h2>
-                    <img style="width: 5rem;" src="images/candidate.png" alt="">
-                </div>
-
-                <div class="col-md-6">
-                    <table class="table" style="text-align: left;">
-                        <tr>
-                            <td>Python </td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>C</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Dart</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Reactjs</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Tensorflow</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>MySql</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-
-                </div>
-                <div class="col-md-6">
-                    <table class="table" style="text-align:left;">
-
-                        <tr>
-                            <td>Nodejs</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Flask</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Bootstrap</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Django</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Numpy </td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>DataStructures</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Algorithms</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                        <td>Flutter App Development</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-
-                </div>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center black-text">Hello, I'm Keshav Mishra</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A Problem solver, full stack developer and a student.</h5>
+      </div>
+     
+      <br><br>
+      <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l12 center">
+                <img class="responsive-img" src="./images/codeinspection.svg" alt="">
             </div>
-            <hr>
-            <h1 id="hobbies">Hobbies</h1>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4 class="hobbies-quote">
-                        "A hobby is a happy medium between a passion and a monomania."<br>
-
-                    </h4>
-                    <p class="hobbies-quote">-HONORE DE BALZAC, The Wisdom of Balzac</p>
-                    
-                </div>
-                
-                <div class="col-lg-6" style="text-align: center;">
-                    <img style="width:10rem" src="images/football.png" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <p style="text-align: center; font-family: 'Gochi Hand', cursive; font-size: large;">
-                        <br><br>
-                        I love playing football.Football has been a great part <br>
-                        of my life and I plan to continue playing forever. <br>
-                        Running Marathons, Competitive Programming, Cycling, Gaming
-                </div>
-            </div>
-            <hr>
-            <h1 id="education-head">Education</h1>
-            <div id="education" class="row mb-5">
-                
-                <div class="col-lg-6">
-                    <img style="width:15rem" src="images/graduate-student-avatar.png" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <h5><i class="fas fa-graduation-cap"></i>
-                        Bachelor - Infomation technology
-                    </h5>
-                    <p>KJ Somaiya Institute of Engineering and  <br>
-                        Information Technology, Sion(2018-2022)
-                    </p>
-                    <h5><i class="fas fa-graduation-cap"></i>
-                        High School - General Science
-                    </h5>
-                    <p>SK Somaiya Vinay Mandir and junior College,Vidyavihar(2016-2018)</p>
-
-                    <h5><i class="fas fa-graduation-cap"></i>
-                        Secondary and primary education
-                    </h5>
-                    <p>Holy Cross High School, Kurla (2004-2016)</p>
-
-                </div>
-            </div>
-
+  
+          </div>
+          
         </div>
-    </section>
-    <section id = "contactme">
-            <h4 id = "contactme-quote" style="color: #fff;">
-                “Communication is merely an exchange of information, <br>
-                but connection is an exchange of our humanity.” <br>
-                - Sean Stephenson</h4>
-            <br>
-            <a href="https://www.linkedin.com/in/keshav-mishra-912728173/"><i  class="icons fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/mishrakeshav"><i  class="icons fab fa-github"></i></a>
-            <a href="https://www.codechef.com/users/mishrakeshav"><i  class="icons fas fa-code"></i></a>
-            <a href="https://www.instagram.com/iamkeshavmishra7/"><i  class="icons fab fa-instagram"></i></a>
-            <a href="mailto:mishrakeshav2001@gmail.com"><i  class="icons fas fa-envelope"></i></a>
-            <p style = "text-align: center; color: 'white'">© Copyright 2019 Keshav Mishra</p>
-        </section>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <section id = "connect">
+        <div class="container">
+          <div class="row">
+              <div class="col s12 center">
+                  <h4>Connect With Me</h4>
+              </div>
+          </div>
+        </div>
+        
+        
+        <div class="container">
+
+            <div class="row center">
+              
+              <div class="col s4 m4 l4 center">
+                  <a href="https://www.linkedin.com/in/keshav-mishra-912728173/"><img class="responsive-img" src="./images/linkedin.png" height="80px" width="80px" alt=""></a>
+              </div>
+              <div class="col s4 m4 l4 center">
+                  <a href="https://github.com/mishrakeshav"><img class="responsive-img" src="./images/github-icon.svg" height="80px" width="85px" alt=""></a>
+              </div>
+              <div class="col s4 m4 l4 center">
+                  <a href="mailto:mishrakeshav2001@gmail.com"><img class="responsive-img" src="./images/google-gmail.svg" height="80px" width="85px" alt=""></a>
+              </div>
+            </div>
+        </div>
+  </section>
+
+  <div class="divider mb2"></div>
+
+
+  <section id = "experience">
+     
+      <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l6">
+              <div class="center">
+                  <h3 class="black-text">Experience 
+                    </h3>
+              </div>
+            </div>
+            <div class="col l6 center hide-on-med-and-down">
+                <img width = "300" class="responsive-img" src="./images/undraw_updated_resume_u4fy.svg" alt="">
+            </div>
+            <div class="col s12 m12 ">
+                <div class="card horizontal">
+                  <div class="card-content black-text">
+                    <span class="card-title">Full Stack Web Developer (Intern) at YHT Solutions</span>
+                    <p>June 2020 - July 2020</p>
+                    <p>
+                      Worked in a team of 3 to build a website form scratch from frontend to backend using Flask, Mysql and Bootstrap. 
+                      Focussed on writing scalable, maintainable, DRY code, using classes , SQLALCHEMY(ORM), application factory paradigm. Designed the database schema.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col s12 m12 ">
+                <div class="card horizontal">
+                  <div class="card-content black-text">
+                    <span class="card-title">Full Stack Web Developer (Intern) at EYUVA Technologies</span>
+                    <p>(Dec, 2019)</p>
+                    <p>
+                      Worked in a Team of 4 to build a website to automate the task of Department of IT, KJSIEIT.
+                      Built maintainable, scalable websites using Nodejs, Expressjs, Flask, Bootstrap, Mysql. Designed the database schema
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col s12 m12 ">
+                <div class="card horizontal">
+                  <div class="card-content black-text">
+                    <span class="card-title">Python Developer (Intern) at Trivia Softwares</span>
+                    <p>July 2019 - Sept 2019</p>
+                    <p>
+                      Built a management system design project using Tkinter , Sqlite, and used various data extraction, visualization
+                      tools for data visualization and Analysis.
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <section id = "projects">
+      <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="col s12 m12 l6">
+                    <div class="center">
+                        <h3 class="black-text">My Projects 
+                        </h3>
+                        
+                    </div>
+                    
+                  </div>
+                  <div class="col l6 center hide-on-med-and-down">
+                      <img width = "300" class="responsive-img" src="./images/undraw_Business_analytics_64el.svg" alt="">
+                  </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+                <a href="#">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Requisition and Supply Management System</span>
+                    <p>
+                        The application helps to keep track of all requisitions made within an organization. 
+                        This application provided the users with a page where a formal request can be made for 
+                        additional supplies of stationery and other commodities. The admin can then view all the requests 
+                        and accept or reject them depending upon the availability of the requested commodity.
+                  </p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l4">
+                <a href="#">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Real-Estate-Web-Application</span>
+                    <p>
+                      A Real Estate Management Application where users view 
+                      all the listings and make an inquiry if they are interested. 
+                      Anytime a user makes an inquiry an email is sent to the realtor.
+                      The Realtors have a staff login and can view all the inquires made by the users on their listings.
+                      The Admin can add/remove realtors and can also add/remove/update the listings
+                    </p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l4">
+                <a href="#">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Django Blog Application</span>
+                    <p>
+                    This is a blog application somewhat similar medium.com
+                    Here users can post their own blog and read other people's blog.
+                    The admin can view all the users and can do all the crud operations on 
+                    the posts as well as users.
+                    Users can also update their password and other details.
+                    There is also a forgot password feature where user can request to change the password if the have 
+                    forgot their password.
+                    </p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l4">
+                <a href="#">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Keeper</span>
+                    <p>
+                    This application was an attempt to make a clone of 
+                    google's keep notes application. The frontend was made using react. 
+                    </p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l4">
+                <a href="#">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title ">View all projects</span>
+                    <p>
+                        View all my projects on github along with practice projects and other stuffs. 
+                    </p>
+                  </div>
+                </div>
+                </a>
+            </div>
+            
+        </div>
+      </div>
+  </section>
+
+
+
+  <section id = "skills">
+      <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l6">
+                <div class="center">
+                    <h3 class="black-text">My Skills 
+                      </h3>
+                </div>
+              </div>
+              <div class="col l6 center hide-on-med-and-down">
+                  <img width = "300" class="responsive-img" src="./images/undraw_percentages_0rur.svg" alt="">
+              </div>
+              <div class="col s12 m12 l12">
+                <h5>Languages</h5>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      Python
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 95%"></div>
+                      </div>
+                  </p>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      C
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 90%"></div>
+                      </div>
+                  </p>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      JavaScript
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 80%"></div>
+                      </div>
+                  </p>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      C++
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 60%"></div>
+                      </div>
+                  </p>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      Java
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 50%"></div>
+                      </div>
+                  </p>
+              </div>
+              <div class="col s6 m6 l4">
+                  <p>
+                      Dart
+                      <div class="progress grey">
+                          <div class="determinate black" style="width: 30%"></div>
+                      </div>
+                  </p>
+              </div>
+
+
+              
+
+              <div class="col s12 m12 l12">
+                  <h5>DBMS</h5>
+                </div>
+                <div class="col s6 m6 l4">
+                    <p>
+                        MySql
+                        <div class="progress grey">
+                            <div class="determinate black" style="width: 95%"></div>
+                        </div>
+                    </p>
+                </div>
+                <div class="col s6 m6 l4">
+                    <p>
+                        MongoDB
+                        <div class="progress grey">
+                            <div class="determinate black" style="width: 70%"></div>
+                        </div>
+                    </p>
+                </div>
+                <div class="col s6 m6 l4">
+                    <p>
+                        SqlLite
+                        <div class="progress grey">
+                            <div class="determinate black" style="width: 95%"></div>
+                        </div>
+                    </p>
+                </div>
+                <div class="col s6 m6 l4">
+                    <p>
+                        SQLAlchemy(ORM)
+                        <div class="progress grey">
+                            <div class="determinate black" style="width: 95%"></div>
+                        </div>
+                    </p>
+                </div>
+                
+
+                <div class="col s12 m12 l12">
+                    <h5>FrameWorks and Tools</h5>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p>
+                          Flask
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 95%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p>
+                          Django
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 90%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p>
+                          Expressjs
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 90%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Flutter
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 65%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Bootstrap
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 95%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Materialize CSS
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 80%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Numpy, Pandas, Sklearn, Matplotlib
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 90%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Tensorflow
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 60%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> OpenCV
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 80%"></div>
+                          </div>
+                      </p>
+                  </div>
+                  <div class="col s6 m6 l4">
+                      <p> Python's GUI Frameworks(Tkinter , PyQT5)
+                          <div class="progress grey">
+                              <div class="determinate black" style="width: 80%"></div>
+                          </div>
+                      </p>
+                  </div>
+
+
+                  <div class="col s6 m12 l12">
+                      <h5>Concepts</h5>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <p>
+                            Data Structures & Algorithms
+                            <div class="progress grey">
+                                <div class="determinate black" style="width: 80%"></div>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col s6 m6 l4">
+                        <p>
+                            Machine Learning
+                            <div class="progress grey">
+                                <div class="determinate black" style="width: 80%"></div>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col s6 m6 l4">
+                        <p>
+                            DBMS
+                            <div class="progress grey">
+                                <div class="determinate black" style="width: 95%"></div>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col s6 m6 l4">
+                        <p> OS
+                            <div class="progress grey">
+                                <div class="determinate black" style="width: 70%"></div>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col s6 m6 l4">
+                        <p> Deep Learning
+                            <div class="progress grey">
+                                <div class="determinate black" style="width: 60%"></div>
+                            </div>
+                        </p>
+                    </div>
+                    
+        </div>
+      </div>
+  </section>
+  
+
+  <section id = "education">
+     
+      <div class="container">
+        <div class="row">
+            
+          <div class="col s12 m12 l6">
+              <div class="center">
+                  <h3 class="black-text">Education 
+                    </h3>
+              </div>
+            </div>
+            <div class="col l6 center hide-on-med-and-down">
+                <img width = "300" class="responsive-img" src="./images/undraw_Graduation_ktn0.svg" alt="">
+            </div>
+            
+            <div class="col s12 m12 ">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Bachelor - Infomation technology</span>
+                    <p>KJ Somaiya Institute of Engineering and Information Technology, Sion(2018-2022). 
+                      <br>Average GPA : 9.76
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col s12 m12 ">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">High School - General Science</span>
+                    <p>SK Somaiya Vinay Mandir and junior College,Vidyavihar(2016-2018)
+                      <br>Maharashtra State HSC Board : 86%
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col s12 m12 ">
+                <div class="card horizontal z-depth-3">
+                  <div class="card-content black-text">
+                    <span class="card-title">Secondary and primary education</span>
+                    <p>Holy Cross High School, Kurla (2004-2016).
+                      <br>Maharashtra State SSC Board : 87%
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- <section id = "certifications">
+
+  <div class="container">
+      <div class="row">
+          <div class="col s12 m12 l6">
+              <div class="center">
+                  <h3 class="black-text">Certifications
+                    </h3>
+              </div>
+            </div>
+            <div class="col l6 center hide-on-med-and-down">
+                <img width = "300" class="responsive-img" src="./images/undraw_certificate_343v.svg" alt="">
+            </div>
+            <div class="col s12 carousel">
+                <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+                <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+                <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+                <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+                <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+              </div>
+      </div>
+      
+        
+  </div>
+  </section> -->
+
+
+
+  
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+     copyright 2020</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large black">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a href = "#skills" class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a href = "#education" class="btn-floating black darken-1"><i class="material-icons">school</i></a></li>
+      <li><a href = "#certifications" class="btn-floating green"><i class="material-icons">verified</i></a></li>
+      <li><a href = "#experience" class="btn-floating green"><i class="material-icons">perm_identity</i></a></li>
+    </ul>
+  </div>
    
 
-</body>
 
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.fixed-action-btn');
+  var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left'
+    });
+  var element = document.querySelectorAll('.carousel');
+  options = {
+    indicators : true,
+    dist : -50,
+  }
+  var instances = M.Carousel.init(element, options);
+  });
+ 
+
+ 
+  </script>
+  </body>
 </html>
